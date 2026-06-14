@@ -100,6 +100,16 @@ def crear_docx(data, output_path):
         for tip in consejos:
             doc.add_paragraph(tip, style='List Bullet')
 
+    # Shopping list
+    lista_compra = data.get('lista_compra', {})
+    if lista_compra:
+        doc.add_heading('Lista de la compra', level=1)
+        doc.add_paragraph('Agrupada por categorías para ir al supermercado:')
+        for categoria, items in lista_compra.items():
+            h = doc.add_heading(categoria, level=2)
+            for item in items:
+                doc.add_paragraph(item, style='List Bullet')
+
     doc.save(output_path)
     print(f'Documento guardado en: {output_path}')
 
