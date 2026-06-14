@@ -18,6 +18,8 @@ permission:
   webfetch: allow
   codesearch: allow
   skill: allow
+  task: allow
+  todowrite: allow
 ---
 
 # Guía de Cocina — Planificador, recetario y gestión de despensa
