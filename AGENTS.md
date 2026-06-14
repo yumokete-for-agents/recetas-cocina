@@ -60,6 +60,7 @@ Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con 
 ## Skills
 - `chef-expert/`: flujo general de mejora y exportación de recetas (skill local).
 - `.opencode/skills/olla-presion/`: conocimiento específico de olla a presión, adaptaciones y sustituciones (skill local).
+- `.opencode/skills/pescados-guisos/`: conocimiento específico de guisos de pescado con patatas — tipos de pescado, tiempos, perfiles regionales, fumet, micro-ajustes, errores comunes.
 
 ## Idioma
 - Todo el contenido (recetas, docs, código) en español.
