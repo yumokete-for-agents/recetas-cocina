@@ -23,10 +23,10 @@ Usar `/lecciones-aprendidas` al finalizar tareas complejas para capturar conocim
 Para tareas con 3+ pasos: crear todolist al inicio, mantener solo 1 tarea `in_progress`, marcar `completed` inmediatamente.
 
 ## Generar DOCX
-- Usar `chef-expert/scripts/generar_docx.py`, NO `generar_receta.py` (hardcoded, one-off).
+- Usar `.opencode/skills/chef-expert/scripts/generar_docx.py`, NO `generar_receta.py` (hardcoded, one-off).
 - El script acepta JSON por stdin:
   ```bash
-  echo '{...}' | .venv/bin/python chef-expert/scripts/generar_docx.py --titulo "Nombre" --output "receta.docx"
+  echo '{...}' | .venv/bin/python .opencode/skills/chef-expert/scripts/generar_docx.py --titulo "Nombre" --output "receta.docx"
   ```
 - **Siempre** usar `.venv/bin/python`, nunca `python3` global.
 - Campos del JSON: `titulo`, `raciones`, `ingredientes` ([[cant, ing], ...]), `pasos` ([[tit, cuerpo], ...]), `ajustes` ([[nom, desc], ...]), `consejos` ([str, ...]), `etiquetas` ([str, ...]).
@@ -61,7 +61,7 @@ Para tareas con 3+ pasos: crear todolist al inicio, mantener solo 1 tarea `in_pr
 - Incluir siempre **ambos tiempos** (P1 y P2/sin selector) en los pasos.
 
 ## Micro-ajustes — obligatorios
-Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con variaciones de textura, punto, sabor y sustituciones. Ver `chef-expert/references/mejora-recetas.md` para el listado completo.
+Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con variaciones de textura, punto, sabor y sustituciones. Ver `.opencode/skills/chef-expert/references/mejora-recetas.md` para el listado completo.
 
 ## Sustituciones probadas (documentar en cada receta)
 - Tomate + pimiento → asadillo (~100 g / 4 rac)
@@ -73,7 +73,7 @@ Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con 
 - La skill cubre: estructura universal 5 fases, tabla de carnes con tiempos P1/P2, perfiles de sofrito regionales, maridaje de líquidos, proporciones por ración, micro-ajustes transversales, y checklist de diseño.
 
 ## Skills
-- `chef-expert/`: flujo general de mejora y exportación de recetas (skill local).
+- `.opencode/skills/chef-expert/`: flujo general de mejora y exportación de recetas (skill local).
 - `nuevo-proyecto/`: inicialización de proyectos OpenCode desde cero. Contiene orígenes exactos de agentes/skills, boilerplate AGENTS.md y pasos de setup (skill local).
 - `.opencode/skills/guisos-carne/`: framework completo para diseñar y adaptar guisos de carne con patatas.
 - `.opencode/skills/olla-presion/`: conocimiento específico de olla a presión, adaptaciones y sustituciones (skill local).
