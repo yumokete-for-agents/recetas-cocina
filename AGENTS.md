@@ -52,6 +52,11 @@ Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con 
 - Cebolla fresca → zanahoria (1 med) + cebolla en polvo (1 cdta rehidratada)
 - Vino blanco → caldo de carne + 1 cda vinagre de vino
 
+## Framework general de guisos
+- Para diseñar guisos de carne con patatas desde cero o adaptar recetas, usar `chef-expert/references/guisos-generales.md`.
+- El framework cubre: tabla de carnes con tiempos P1/P2, perfiles de sofrito regionales, maridaje de líquidos, proporciones por ración, micro-ajustes transversales, y checklist de diseño.
+- Aplicar la estructura universal: Sellar → Sofreír → Desglasar → 1ª cocción (carne) → 2ª cocción (+ patatas) → Reposo.
+
 ## Skills
 - `chef-expert/`: flujo general de mejora y exportación de recetas (skill local).
 - `.opencode/skills/olla-presion/`: conocimiento específico de olla a presión, adaptaciones y sustituciones (skill local).
