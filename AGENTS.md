@@ -69,13 +69,13 @@ Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con 
 - Vino blanco → caldo de carne + 1 cda vinagre de vino
 
 ## Framework general de guisos
-- Para diseñar guisos de carne con patatas desde cero o adaptar recetas, usar `chef-expert/references/guisos-generales.md`.
-- El framework cubre: tabla de carnes con tiempos P1/P2, perfiles de sofrito regionales, maridaje de líquidos, proporciones por ración, micro-ajustes transversales, y checklist de diseño.
-- Aplicar la estructura universal: Sellar → Sofreír → Desglasar → 1ª cocción (carne) → 2ª cocción (+ patatas) → Reposo.
+- Para diseñar guisos de carne con patatas desde cero o adaptar recetas, cargar skill `.opencode/skills/guisos-carne/`.
+- La skill cubre: estructura universal 5 fases, tabla de carnes con tiempos P1/P2, perfiles de sofrito regionales, maridaje de líquidos, proporciones por ración, micro-ajustes transversales, y checklist de diseño.
 
 ## Skills
 - `chef-expert/`: flujo general de mejora y exportación de recetas (skill local).
 - `nuevo-proyecto/`: inicialización de proyectos OpenCode desde cero. Contiene orígenes exactos de agentes/skills, boilerplate AGENTS.md y pasos de setup (skill local).
+- `.opencode/skills/guisos-carne/`: framework completo para diseñar y adaptar guisos de carne con patatas.
 - `.opencode/skills/olla-presion/`: conocimiento específico de olla a presión, adaptaciones y sustituciones (skill local).
 - `.opencode/skills/pescados-guisos/`: conocimiento específico de guisos de pescado con patatas — tipos de pescado, tiempos, perfiles regionales, fumet, micro-ajustes, errores comunes.
 - `.opencode/skills/arroz-guisos/`: conocimiento específico de arroces secos, melosos y caldosos — proporciones líquido/arroz, clasificación por textura, variedades de grano, técnica universal, perfiles regionales, micro-ajustes y errores comunes.

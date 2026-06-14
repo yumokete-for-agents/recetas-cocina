@@ -33,6 +33,7 @@ Aplica criterios de mejora (ver `references/mejora-recetas.md`):
 - Optimización de tiempos
 - Claridad y estructura de la explicación
 - Sugerencias de variaciones y micro-ajustes
+- Para guisos de carne, cargar skill `.opencode/skills/guisos-carne/`
 
 ### 4. Conversar con el usuario
 Presenta la receta mejorada al usuario y ofrece adaptaciones:

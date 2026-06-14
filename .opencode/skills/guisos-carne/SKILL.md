@@ -1,3 +1,14 @@
+---
+name: guisos-carne
+description: >
+  Framework completo para diseñar y adaptar guisos de carne con patatas
+  desde cero. Incluye estructura universal de 5 fases, tabla de carnes
+  con tiempos de olla a presión (P1/P2), perfiles de sofrito regionales,
+  maridaje de líquidos, proporciones por ración, micro-ajustes
+  transversales y checklist de diseño. Cargar al trabajar con cualquier
+  guiso de carne que use olla a presión.
+---
+
 # Guisos de carne con patatas — Framework general
 
 ## Estructura universal (5 fases)
