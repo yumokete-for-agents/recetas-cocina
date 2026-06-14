@@ -133,6 +133,12 @@ Comercial: caldo de pescado en brick o pastilla de caldo desmenuzada.
 
 ---
 
+## Aviso de seguridad
+
+**Pescado crudo o poco hecho** (si se añade el pescado al final y se apaga): usar pescado previamente congelado (-20 °C 48 h o -35 °C 15 h) o de acuicultura certificada si se sirve el pescado ligeramente traslúcido. El anisakis en pescado salvaje requiere congelación para eliminarse.
+
+---
+
 ## Errores comunes
 
 - **Añadir pescado demasiado pronto**: se deshace y el caldo queda turbio.

@@ -143,6 +143,19 @@ Sofrito → Proteína → Caldo + especias → Hervir → Arroz → Cocer 18 min
 
 ---
 
+## Aviso de seguridad — Bacillus cereus en arroz
+
+**Esta es la advertencia más importante al cocinar arroz.** Las esporas de Bacillus cereus sobreviven a la cocción del arroz. Si el arroz cocido se deja a temperatura ambiente, las esporas germinan y las bacterias producen **toxinas que el recalentado no destruye**.
+
+| Regla | Detalle |
+|---|---|
+| **Refrigerar antes de 2 h** | El arroz cocido no debe estar más de 2 h a temperatura ambiente. Pasar a la nevera en cuanto deje de humear. |
+| **Consumir en 24 h** | El arroz refrigerado se consume en 24 h máximo. |
+| **Recalentar una sola vez** | No guardar arroz que se ha recalentado y sobrado otra vez. |
+| **Recalentar a 74 °C** | Calentar hasta que el arroz humee bien en toda la superficie. Las toxinas no se eliminan, pero se evita la proliferación adicional. |
+
+---
+
 ## Errores comunes
 
 - **Remover el arroz seco** → el grano suelta almidón y queda pastoso/puré.

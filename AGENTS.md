@@ -80,6 +80,11 @@ Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con 
 - `.opencode/skills/pescados-guisos/`: conocimiento específico de guisos de pescado con patatas — tipos de pescado, tiempos, perfiles regionales, fumet, micro-ajustes, errores comunes.
 - `.opencode/skills/arroz-guisos/`: conocimiento específico de arroces secos, melosos y caldosos — proporciones líquido/arroz, clasificación por textura, variedades de grano, técnica universal, perfiles regionales, micro-ajustes y errores comunes.
 - `.opencode/skills/salteados-wok/`: conocimiento específico de salteados al wok/sartén — orden de incorporación, cortes, marinados, salsas base, combinaciones, técnica de fuego alto, micro-ajustes y errores comunes.
+- `.opencode/skills/asados-carne/`: conocimiento experto sobre asados de carne al horno, parrilla y barbacoa — cortes, técnicas directa/indirecta, temperaturas, dry rubs, perfiles regionales, maderas, punto de cocción.
+- `.opencode/skills/asados-pescado/`: conocimiento experto sobre asados de pescado y marisco — tipos según textura, técnicas (parrilla, plancha, sal, papillote), tiempos por grosor, salsas, perfiles regionales.
+- `.opencode/skills/plancha/`: conocimiento experto sobre cocción a la plancha (mínima grasa, fuego alto) — técnicas específicas por ingrediente: carnes, pescados, mariscos, verduras, huevos, setas, tofu, frutas. Cada sección con temperatura, tiempo y punto óptimo.
+- `.opencode/skills/pasta-salsas/`: conocimiento experto sobre salsas para pasta — clasificación por base (tomate, nata, aceite, queso, ragùs, verduras, pescado, pesto), técnica de emulsión, maridaje salsa-forma, proporciones, quesos y errores comunes.
+- `.opencode/skills/sopas/`: conocimiento experto sobre sopas, caldos y cremas — clasificación por textura y base, técnicas de fondo, espesores, emulsionado, guarnición, caldos internacionales y errores comunes.
 
 ## Agentes externos copiados
 - `.opencode/agents/git-expert.md`: autoridad exclusiva en git/gh. Delegar siempre commits, push, tags, PRs. No edita archivos ni ejecuta otro bash.
@@ -98,3 +103,18 @@ Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con 
 
 ## Idioma
 - Todo el contenido (recetas, docs, código) en español.
+
+## Avisos de seguridad alimentaria — obligatorios en cada receta
+Toda receta debe incluir **avisos de seguridad** cuando aplique. No asumir que el usuario lo sabe.
+
+| Ingrediente | Advertencia | Por qué |
+|---|---|---|
+| **Pollo / pavo / aves** | Cocer hasta 74 °C en el centro (muslo). No servir rosado ni poco hecho. | Salmonella y Campylobacter causan intoxicación grave. Solo la temperatura interna mata las bacterias. |
+| **Carne picada** (hamburguesas, albóndigas, pates, salchichas caseras) | Cocer hasta 71 °C en el centro. No servir poco hecho. | La molienda distribuye bacterias de la superficie al interior. No basta con sellar. |
+| **Cerdo** (filete, lomo, presa) | Puede servirse rosado (63 °C) si es pieza entera. **Carne picada de cerdo**: 71 °C. | Triquinosis y otras parasitosis. El cerdo moderno es seguro a 63 °C en pieza entera, pero picada requiere 71 °C (misma razón que vacuno picado). |
+| **Pescado crudo / poco hecho** (carpaccio, tartar, ceviche, sushi) | Usar pescado previamente congelado (-20 °C 48h o -35 °C 15h) o de acuicultura certificada. | Anisakis: parásito presente en pescado salvaje. La congelación mata las larvas. |
+| **Huevos** (yema cruda o poco cuajada) | Advertir a embarazadas, niños, ancianos e inmunodeprimidos. Usar huevos pasteurizados si hay duda. | Salmonella en huevo puede causar infección grave en poblaciones vulnerables. |
+| **Recalentar sobras** | Calentar hasta 74 °C en el centro, no solo "que humee". | Bacterias que sobreviven a la refrigeración (Listeria, Bacillus) requieren temperatura alta para morir. |
+| **Arroz cocido** (Bacillus cereus) | Refrigerar el arroz cocido **antes de 2 horas** a temperatura ambiente. No recalentar más de una vez. Consumir en 24 h. | Bacillus cereus forma esporas que sobreviven a la cocción. Si el arroz se enfría lentamente, las esporas germinan y producen toxinas resistentes al calor que el recalentado no elimina. |
+| **Congelación / descongelación** | Descongelar en nevera (nunca a temperatura ambiente). No recongelar carne/pescado descongelado. | La superficie alcanza temperatura de riesgo (4-60 °C) mientras el centro sigue congelado, multiplicando bacterias. |
+| **Contaminación cruzada** | Tablas y cuchillos separados para carne cruda y vegetales. Lavar manos tras tocar carne/pescado crudo. | Bacterias de alimentos crudos se transfieren a alimentos listos para comer y se multiplican sin cocción adicional. |

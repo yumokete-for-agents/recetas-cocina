@@ -167,6 +167,16 @@ Cada ingrediente se añade en un orden específico según su densidad y tiempo d
 
 ---
 
+## Aviso de seguridad
+
+**Pollo / pavo**: el salteado es rápido y puede dejar el centro crudo. Cortar en tiras finas (~1 cm) y asegurar cocción completa. Si hay duda, saltear a fuego alto 4-5 min en lugar de 2-3.
+
+**Carne picada** (cerdo, ternera, pollo): cocer hasta que no quede nada rosado en todo el lote (~5-6 min salteando).
+
+**Contaminación cruzada**: preparar primero las verduras y retirarlas, luego cocinar la proteína, o usar utensilios separados.
+
+---
+
 ## Errores comunes
 
 - **Wok/sartén no suficientemente caliente**: los ingredientes sudan en lugar de dorarse.
