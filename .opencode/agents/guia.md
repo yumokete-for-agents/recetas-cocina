@@ -5,7 +5,7 @@ description: >
   sugiere recetas según ingredientes disponibles, prepara menús completos,
   genera lista de la compra y ayuda a construir una despensa base con
   ingredientes de larga duración.
-mode: subagent
+mode: primary
 permission:
   "*": deny
   read: allow
