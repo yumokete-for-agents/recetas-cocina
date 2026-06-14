@@ -94,5 +94,10 @@ Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con 
 - Sin ella, los agentes no sabrán que deben delegar en `git-expert`.
 - `git-expert` ya tiene estas reglas en su system prompt; no necesita la skill.
 
+## New project boilerplate
+- Al crear un proyecto nuevo desde cero, usar `.opencode/references/new-project-boilerplate.md`.
+- Copia: `git-expert.md`, `think-and-delegate.md`, `git-basic-rules/SKILL.md` desde `04-oc-expert-agents-builder`.
+- Crear AGENTS.md con reglas genéricas (venv, bash, routing, etc.).
+
 ## Idioma
 - Todo el contenido (recetas, docs, código) en español.
