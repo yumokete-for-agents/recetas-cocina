@@ -4,7 +4,22 @@
 - **NUNCA** ejecutar Python fuera del venv del proyecto.
 - Venv: `.venv/` en la raíz del proyecto.
 - Activar: `.venv/bin/python` o `.venv/bin/pip`.
+- **Para instalar nuevas dependencias**: `.venv/bin/pip install <paquete>`.
 - Dependencia `python-docx` ya instalada en el venv.
+
+## Reglas generales de ejecución
+
+### Bash = último recurso
+Preferir tools (Read, Write, Edit, Glob, Grep, Webfetch) antes que bash. Usar bash solo para git, python docx, npm, docker y comandos del sistema.
+
+### Bash commands: límite estricto de tamaño
+Cualquier comando bash que supere **200 caracteres** o **5 líneas** DEBE escribirse a un archivo temporal y ejecutarse desde ahí. No pasar como string inline al Bash tool.
+
+### Lecciones aprendidas
+Usar `/lecciones-aprendidas` al finalizar tareas complejas para capturar conocimiento y reglas antes de que se pierdan en el historial de la sesión.
+
+### TodoWrite para tareas complejas
+Para tareas con 3+ pasos: crear todolist al inicio, mantener solo 1 tarea `in_progress`, marcar `completed` inmediatamente.
 
 ## Generar DOCX
 - Usar `chef-expert/scripts/generar_docx.py`, NO `generar_receta.py` (hardcoded, one-off).
@@ -63,6 +78,8 @@ Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con 
 - `.opencode/skills/pescados-guisos/`: conocimiento específico de guisos de pescado con patatas — tipos de pescado, tiempos, perfiles regionales, fumet, micro-ajustes, errores comunes.
 - `.opencode/skills/arroz-guisos/`: conocimiento específico de arroces secos, melosos y caldosos — proporciones líquido/arroz, clasificación por textura, variedades de grano, técnica universal, perfiles regionales, micro-ajustes y errores comunes.
 - `.opencode/skills/salteados-wok/`: conocimiento específico de salteados al wok/sartén — orden de incorporación, cortes, marinados, salsas base, combinaciones, técnica de fuego alto, micro-ajustes y errores comunes.
+- `.opencode/skills/git-expert/`: gestión de git para el proyecto — formato de commits, push, PRs, ramas, seguridad.
+- `.opencode/skills/think-and-delegate/`: meta-cognición, planificación, delegación de sub-tareas con Task tool, uso de Todowrite.
 
 ## Idioma
 - Todo el contenido (recetas, docs, código) en español.
