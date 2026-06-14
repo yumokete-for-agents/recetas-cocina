@@ -83,11 +83,16 @@ Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con 
 - `.opencode/agents/git-expert.md`: autoridad exclusiva en git/gh. Delegar siempre commits, push, tags, PRs. No edita archivos ni ejecuta otro bash.
 - `.opencode/agents/think-and-delegate.md`: agente primario orquestador. Planifica y delega todo mediante Task tool. Pide permiso para tareas modificadoras.
 
-## routing por agente autoritativo
+## Routing por agente autoritativo
 | Agente | Dominio | Regla |
 |---|---|---|
 | `git-expert` | Toda operación git/gh (commit, push, tag, branch, merge, rebase, PR) | **Delegar siempre** |
 | Cualquier agente | `git status`, `git diff` | Solo lectura segura — cualquiera puede |
+
+## Skill obligatoria: git-basic-rules
+- `.opencode/skills/git-basic-rules/`: todos los agentes (excepto `git-expert`) que puedan necesitar git DEBEN cargar esta skill.
+- Sin ella, los agentes no sabrán que deben delegar en `git-expert`.
+- `git-expert` ya tiene estas reglas en su system prompt; no necesita la skill.
 
 ## Idioma
 - Todo el contenido (recetas, docs, código) en español.
