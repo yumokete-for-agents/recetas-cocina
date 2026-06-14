@@ -62,6 +62,7 @@ Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con 
 - `.opencode/skills/olla-presion/`: conocimiento específico de olla a presión, adaptaciones y sustituciones (skill local).
 - `.opencode/skills/pescados-guisos/`: conocimiento específico de guisos de pescado con patatas — tipos de pescado, tiempos, perfiles regionales, fumet, micro-ajustes, errores comunes.
 - `.opencode/skills/arroz-guisos/`: conocimiento específico de arroces secos, melosos y caldosos — proporciones líquido/arroz, clasificación por textura, variedades de grano, técnica universal, perfiles regionales, micro-ajustes y errores comunes.
+- `.opencode/skills/salteados-wok/`: conocimiento específico de salteados al wok/sartén — orden de incorporación, cortes, marinados, salsas base, combinaciones, técnica de fuego alto, micro-ajustes y errores comunes.
 
 ## Idioma
 - Todo el contenido (recetas, docs, código) en español.
