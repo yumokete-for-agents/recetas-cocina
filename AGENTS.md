@@ -78,8 +78,16 @@ Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con 
 - `.opencode/skills/pescados-guisos/`: conocimiento específico de guisos de pescado con patatas — tipos de pescado, tiempos, perfiles regionales, fumet, micro-ajustes, errores comunes.
 - `.opencode/skills/arroz-guisos/`: conocimiento específico de arroces secos, melosos y caldosos — proporciones líquido/arroz, clasificación por textura, variedades de grano, técnica universal, perfiles regionales, micro-ajustes y errores comunes.
 - `.opencode/skills/salteados-wok/`: conocimiento específico de salteados al wok/sartén — orden de incorporación, cortes, marinados, salsas base, combinaciones, técnica de fuego alto, micro-ajustes y errores comunes.
-- `.opencode/skills/git-expert/`: gestión de git para el proyecto — formato de commits, push, PRs, ramas, seguridad.
-- `.opencode/skills/think-and-delegate/`: meta-cognición, planificación, delegación de sub-tareas con Task tool, uso de Todowrite.
+
+## Agentes externos copiados
+- `.opencode/agents/git-expert.md`: autoridad exclusiva en git/gh. Delegar siempre commits, push, tags, PRs. No edita archivos ni ejecuta otro bash.
+- `.opencode/agents/think-and-delegate.md`: agente primario orquestador. Planifica y delega todo mediante Task tool. Pide permiso para tareas modificadoras.
+
+## routing por agente autoritativo
+| Agente | Dominio | Regla |
+|---|---|---|
+| `git-expert` | Toda operación git/gh (commit, push, tag, branch, merge, rebase, PR) | **Delegar siempre** |
+| Cualquier agente | `git status`, `git diff` | Solo lectura segura — cualquiera puede |
 
 ## Idioma
 - Todo el contenido (recetas, docs, código) en español.
