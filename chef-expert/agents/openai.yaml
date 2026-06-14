@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chef Expert"
+  short_description: "Mejora recetas desde URL y genera archivos .md y .docx"
+  default_prompt: "Mejora esta receta y conviértela a .md y .docx"
