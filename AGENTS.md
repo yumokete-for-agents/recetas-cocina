@@ -6,6 +6,7 @@
 - Activar: `.venv/bin/python` o `.venv/bin/pip`.
 - **Para instalar nuevas dependencias**: `.venv/bin/pip install <paquete>`.
 - Dependencia `python-docx` ya instalada en el venv.
+- Pandoc disponible como binario del sistema (`/usr/bin/pandoc` v3.1.3).
 
 ## Reglas generales de ejecución
 
@@ -74,6 +75,7 @@ Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con 
 
 ## Skills
 - `chef-expert/`: flujo general de mejora y exportación de recetas (skill local).
+- `nuevo-proyecto/`: inicialización de proyectos OpenCode desde cero. Contiene orígenes exactos de agentes/skills, boilerplate AGENTS.md y pasos de setup (skill local).
 - `.opencode/skills/olla-presion/`: conocimiento específico de olla a presión, adaptaciones y sustituciones (skill local).
 - `.opencode/skills/pescados-guisos/`: conocimiento específico de guisos de pescado con patatas — tipos de pescado, tiempos, perfiles regionales, fumet, micro-ajustes, errores comunes.
 - `.opencode/skills/arroz-guisos/`: conocimiento específico de arroces secos, melosos y caldosos — proporciones líquido/arroz, clasificación por textura, variedades de grano, técnica universal, perfiles regionales, micro-ajustes y errores comunes.
@@ -93,11 +95,6 @@ Toda receta final debe incluir sección **"Micro-ajustes según tu gusto"** con 
 - `.opencode/skills/git-basic-rules/`: todos los agentes (excepto `git-expert`) que puedan necesitar git DEBEN cargar esta skill.
 - Sin ella, los agentes no sabrán que deben delegar en `git-expert`.
 - `git-expert` ya tiene estas reglas en su system prompt; no necesita la skill.
-
-## New project boilerplate
-- Al crear un proyecto nuevo desde cero, usar `.opencode/references/new-project-boilerplate.md`.
-- Copia: `git-expert.md`, `think-and-delegate.md`, `git-basic-rules/SKILL.md` desde `04-oc-expert-agents-builder`.
-- Crear AGENTS.md con reglas genéricas (venv, bash, routing, etc.).
 
 ## Idioma
 - Todo el contenido (recetas, docs, código) en español.
