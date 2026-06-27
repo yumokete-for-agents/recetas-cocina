@@ -107,6 +107,7 @@ Aprovecha el momento en que la pasta reposa 1 minuto antes de servir:
 | **Pasta diferente** | Rigatoni, penne, bucatini, fettuccine — todos funcionan. Ajustar tiempo de cocción |
 | **Microtortilla más esponjosa** | Añadir ½ cdta de levadura química (tipo Royal) a la clara batida |
 | **Microtortilla más sabrosa** | Añadir una pizca de ajo en polvo, orégano o hierbas secas |
+| **Microtortilla con mejor color** | Añadir una pizca de **pimentón dulce** o **cúrcuma** a la mezcla antes de microondas. La clara sola queda pálida; el pimentón le da un tono más apetecible |
 | **Microtortilla al estilo "tortilla francesa"** | Cuajar en sartén antiadherente con una gota de aceite, 1 min por lado |
 
 ---
